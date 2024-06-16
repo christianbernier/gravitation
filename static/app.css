@@ -1,0 +1,51 @@
+:root {
+  --dark: #191923;
+  --light: #FFFBFC;
+  --input-background: #262632;
+
+  --margin-xs: 3px;
+  --margin-sm: 5px;
+  --margin-md: 10px;
+  --margin-lg: 15px;
+  --margin-xl: 20px;
+}
+
+body {
+  margin: 0;
+  background: var(--dark);
+  color: var(--light);
+  overflow: hidden;
+}
+
+a {
+  display: block;
+  color: var(--light);
+  margin: var(--margin-lg) 0;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+input {
+  background-color: var(--input-background);
+  border: none;
+  padding: var(--margin-sm) var(--margin-md);
+  color: var(--light);
+  max-width: 10ch;
+  border-radius: var(--margin-xs);
+}
+
+input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+}
+
+button {
+  background-color: var(--input-background);
+  border: none;
+  padding: var(--margin-md);
+  color: var(--light);
+  max-width: 10ch;
+  border-radius: var(--margin-xs);
+}
